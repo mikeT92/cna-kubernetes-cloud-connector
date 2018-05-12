@@ -1,6 +1,5 @@
 /*
- * cna-openshift-cloud-connector:ServiceDataVariable.java
- * (c) Copyright msg systems ag Automotive Technology 2017
+ * cna-kubernetes-cloud-connector:ServiceDataVariable.java
  */
 package edu.hm.cs.fwp.cloud.common;
 

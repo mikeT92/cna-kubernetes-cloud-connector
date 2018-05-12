@@ -7,8 +7,8 @@
 		<version>2.0.1.RELEASE</version>
 	</parent>
 	<groupId>edu.hm.cs.fwp.cloud</groupId>
-	<artifactId>cna-openshift-cloud-connector</artifactId>
-	<version>0.8.0</version>
+	<artifactId>cna-kubernetes-cloud-connector</artifactId>
+	<version>0.8.1</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

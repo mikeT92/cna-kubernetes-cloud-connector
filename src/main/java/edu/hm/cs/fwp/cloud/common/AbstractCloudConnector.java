@@ -1,6 +1,5 @@
 /*
- * cna-openshift-cloud-connector:AbstractCloudConnector.java
- * (c) Copyright msg systems ag Automotive Technology 2017
+ * cna-kubernetes-cloud-connector:AbstractCloudConnector.java
  */
 package edu.hm.cs.fwp.cloud.common;
 

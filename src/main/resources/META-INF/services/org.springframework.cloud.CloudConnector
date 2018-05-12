@@ -1,1 +1,1 @@
-edu.hm.cs.fwp.cloud.openshift.OpenShiftCloudConnector
+edu.hm.cs.fwp.cloud.kubernetes.KubernetesCloudConnector

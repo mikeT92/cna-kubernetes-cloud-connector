@@ -1,6 +1,5 @@
 /*
- * cna-openshift-cloud-connector:ServiceDataResolver.java
- * (c) Copyright msg systems ag Automotive Technology 2017
+ * cna-kubernetes-cloud-connector:ServiceDataResolver.java
  */
 package edu.hm.cs.fwp.cloud.common;
 
@@ -26,15 +25,15 @@ import org.springframework.cloud.util.EnvironmentAccessor;
 public interface ServiceDataResolver<SD> {
 
 	/**
-	 * Resolves {@code ServiceData} of a specific service type based on the
-	 * given environment.
+	 * Resolves {@code ServiceData} of a specific service type based on the given
+	 * environment.
 	 * 
 	 * @param environment
 	 *            environment accessor to environment variables and system
 	 *            properties.
 	 * @return List of service data for a specific service type; may be
-	 *         {@code empty}, if the environment does not provide information
-	 *         for this particular service type, but is never {@code null}.
+	 *         {@code empty}, if the environment does not provide information for
+	 *         this particular service type, but is never {@code null}.
 	 */
 	List<SD> resolve(EnvironmentAccessor environment);
 }
