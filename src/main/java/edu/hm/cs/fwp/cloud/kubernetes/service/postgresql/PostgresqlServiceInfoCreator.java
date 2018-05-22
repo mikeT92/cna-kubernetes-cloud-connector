@@ -28,7 +28,7 @@ public final class PostgresqlServiceInfoCreator extends AbstractServiceInfoCreat
 	@Override
 	public PostgresqlServiceInfo createServiceInfo(ServiceData serviceData) {
 		String hostName = serviceData.getRequiredValue("POSTGRES_DB_HOST");
-		int portNumber = serviceData.getRequiredIntValue("POSTGRES_DB_PORT");
+		int portNumber = serviceData.getIntValue("POSTGRES_DB_PORT");
 		String databaseName = serviceData.getRequiredValue("POSTGRES_DB_NAME");
 		String databaseUser = serviceData.getRequiredValue("POSTGRES_DB_USER");
 		String databasePassword = serviceData.getRequiredValue("POSTGRES_DB_PASSWORD");

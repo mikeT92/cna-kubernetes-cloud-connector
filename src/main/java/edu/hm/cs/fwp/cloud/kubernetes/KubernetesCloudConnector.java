@@ -14,6 +14,8 @@ import edu.hm.cs.fwp.cloud.kubernetes.service.mongodb.MongoDbServiceDataResolver
 import edu.hm.cs.fwp.cloud.kubernetes.service.mongodb.MongoDbServiceInfoCreator;
 import edu.hm.cs.fwp.cloud.kubernetes.service.mysql.MySqlServiceDataResolver;
 import edu.hm.cs.fwp.cloud.kubernetes.service.mysql.MySqlServiceInfoCreator;
+import edu.hm.cs.fwp.cloud.kubernetes.service.postgresql.PostgresqlServiceDataResolver;
+import edu.hm.cs.fwp.cloud.kubernetes.service.postgresql.PostgresqlServiceInfoCreator;
 import edu.hm.cs.fwp.cloud.kubernetes.service.rabbitmq.RabbitMqServiceDataResolver;
 import edu.hm.cs.fwp.cloud.kubernetes.service.rabbitmq.RabbitMqServiceInfoCreator;
 
@@ -59,6 +61,8 @@ public final class KubernetesCloudConnector extends AbstractCloudConnector<Servi
 		registerServiceInfoCreator(new RabbitMqServiceInfoCreator());
 		registerServiceDataResolver(new MongoDbServiceDataResolver());
 		registerServiceInfoCreator(new MongoDbServiceInfoCreator());
+		registerServiceDataResolver(new PostgresqlServiceDataResolver());
+		registerServiceInfoCreator(new PostgresqlServiceInfoCreator());
 	}
 
 	/**
